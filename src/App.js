@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Selector from './components/Selector/Selector';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <div className="container">
+       <img src="https://www.gifsanimados.org/data/media/748/bandera-de-chile-imagen-animada-0012.gif" alt="Imagen de título" />
+       
+    <h1>Feriados de Chile 2023</h1>
+    <br></br>
+    <p>Aca podrás encontrar todos los días feriados de Chile por mes.</p>
+        
+    <div>
+    <Selector>
+    </Selector>
     </div>
+
+  </div>  
+</div>
   );
 }
 

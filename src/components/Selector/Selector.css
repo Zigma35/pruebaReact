@@ -1,0 +1,26 @@
+.selectorMeses {
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid darkgoldenrod;
+    
+    };
+
+    .centrar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .central{
+        text-align: center;
+    }
+
+    .centered-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
